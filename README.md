@@ -1,5 +1,5 @@
 
-# Blog Application
+# Tech-Blog
 ---
 <br>
 
@@ -15,6 +15,7 @@
 A mySQL blog application designed to allow users to read, browse, and post blog entries to application. The user may also comment on any posted entry. 
 The application uses the Model-view-controller structure, provides a secure password protected session. Passwords are hashsed upon creation for security.
 The User may view posts without an login credentials, but to create, delete, edit and comment, credentials are required.
+
 <br>
 
 ---
@@ -25,15 +26,16 @@ The User may view posts without an login credentials, but to create, delete, edi
 
 A deployed version of the application can be found here:
 
- - https://portside.herokuapp.com/
+ - https://glacial-brushlands-88300.herokuapp.com/login
 
 For local testing, download repo and please add .env file to root of app directory and in it place login credentials for the following parameters:
 
  - DB_NAME='blog_db'
  - DB_USER='root'
- - DB_PW='XXX'
+ - DB_PW='XXXX'
 
 Save changes to .env file and deploy.
+
 <br>
 
 ---
@@ -44,15 +46,12 @@ Save changes to .env file and deploy.
 
 - Node.js
 - Express.js
-- RESTful API
-- JavaScript
-- Sequelize ORM
-- Bcrypt Password Encryption
-- Handlebars.js Templating Engine
+- Sequelize
+- Bcrypt
+- Handlebars
 - MVC Structure
 - MySQL Database
-- Express Session Authentication
-- User Input Filter
+- Express Session
 - Animate.style
 <br>
 
@@ -62,51 +61,13 @@ Save changes to .env file and deploy.
 
 ## Screenshots
 
-[Screenshot1](./content/images/pic1.png)
+![Screenshot1](./content/images/pic1.png)
 <br>
-[Screenshot2](./content/images/pic2.png)
+![Screenshot2](./content/images/pic2.png)
 <br>
-[Screenshot3](./content/images/pic3.png)
+![Screenshot3](./content/images/pic3.png)
 <br>
-[Screenshot4](./content/images/pic4.png)
-<br>
-[Screenshot5](./content/images/pic5.png)
-<br>
-
----
-<br>
-<br>
-
-## Demonstration
-
-- [Presentation Slides](https://docs.google.com/presentation/d/e/2PACX-1vT38SZG6DmrhrVCoo8c7IJ6hrgR7NThYpV61gN5AF5-DIWZdUDikIM435U1m2E42MhfF9HFQgKluocJ/pub?start=true&loop=true&delayms=5000)
-
-- [Demo](https://youtu.be/FJDMogc28NQ)
-
-<br>
-
----
-<br>
-<br>
-
-## Collaborators
-
- 1. Tamara
-    - Project Lead
-    - Starter Code
-    - Javascript
-
- 2. Jaimit
-    - API
-    - Routes
-
- 3. Abirami
-    - Handlebars
-    - CSS
-
- 4. Vithursan
-    - Database
-    - Models
+![Screenshot4](./content/images/pic4.png)
 <br>
 
 ---
@@ -117,11 +78,11 @@ Save changes to .env file and deploy.
 
 Deployed Application:
 
- - https://portside.herokuapp.com/
+ - https://glacial-brushlands-88300.herokuapp.com/login
 
 Github Repository:
 
- - https://github.com/thumbolinat/project-2-blog
+ - https://github.com/vithursan6/tech-blog
 <br>
 
 ---
@@ -132,7 +93,7 @@ Github Repository:
 
 MIT License
 
-Copyright (c) 2022 thumbolinat
+Copyright (c) 2022 Vithursan6
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
