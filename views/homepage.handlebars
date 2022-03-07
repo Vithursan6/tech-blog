@@ -1,0 +1,19 @@
+{{#if posts.length}}
+    <div class="d-flex justify-content-between animate__animated animate__fadeInRight">
+        <h2 class="allPost">All Posts</h2>
+        <p class="sorted"><a href='/homepage/usersort'>sort by user</a> | <a href='/'>sort by date</a></p>
+    </div>
+    <p class="go-to-dashboard"><a href="/dashboard">Go to dashboard</a></p>
+
+    {{#each posts as |post|}}
+
+        <div class="card p-2 m-2 rounded animate__animated animate__fadeInRight">
+            <div class="card-body">
+                {{> post-data post }}
+
+
+            </div>
+        </div>
+
+    {{/each}}
+{{/if}}
